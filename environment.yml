@@ -1,0 +1,17 @@
+name: SBI-tutorial
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - corner
+  - tensorflow
+  - tensorflow-probability
+  - pytorch
+  - ultranest
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
