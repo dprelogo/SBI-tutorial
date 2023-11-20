@@ -8,10 +8,15 @@ dependencies:
   - pip
   - numpy
   - corner
-  - tensorflow
-  - tensorflow-probability
-  - pytorch
   - ultranest
   - jupyterlab
   - ipykernel
   - ipywidgets
+  - emcee
+  - pip:
+    - swyft
+    - tensorflow
+    - tensorflow-probability
+    - pytorch
+    - https://github.com/dprelogo/conditional_kde/tarball/master
+    - https://github.com/dprelogo/21cmLikelihoods/tarball/master
