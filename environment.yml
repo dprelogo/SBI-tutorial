@@ -11,12 +11,14 @@ dependencies:
   - ipykernel
   - ipywidgets
   - pip:
+    - matplotlib
+    - seaborn
     - emcee
     - ultranest
     - corner
     - swyft
     - tensorflow
     - tensorflow-probability
-    - pytorch
+    - torch
     - https://github.com/dprelogo/conditional_kde/tarball/master
     - https://github.com/dprelogo/21cmLikelihoods/tarball/master
