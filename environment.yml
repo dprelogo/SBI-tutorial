@@ -7,13 +7,13 @@ dependencies:
   - python=3.8
   - pip
   - numpy
-  - corner
-  - ultranest
   - jupyterlab
   - ipykernel
   - ipywidgets
-  - emcee
   - pip:
+    - emcee
+    - ultranest
+    - corner
     - swyft
     - tensorflow
     - tensorflow-probability
